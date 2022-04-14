@@ -14,8 +14,24 @@
 
 - nextTick在什么场景下使用
 
+#### Promise
 
+- Promise 解决了什么问题？
+- Promise 常用的方法有哪些？他们分别的作用是什么？
+- Promise 实现原理?
+- Promise 在事件循环中的执行过程是怎么样的
 
 ### 优化
 
 - 大量数据的计算或渲染被卡住，如何优化
+
+
+### node
+- Node全局对象
+```
+Class:Buffer 可以处理二进制以及非Unicode编码的数据
+process 进程对象，提供有关当前过程的信息和控制
+console、clearInterval、setInterval、clearTimeout、setTimeout
+global 全局命名空间对象，process、console、setTimeout等都有放到global中
+```
+- Node事件循环机制
