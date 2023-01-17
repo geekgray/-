@@ -35,3 +35,10 @@ console、clearInterval、setInterval、clearTimeout、setTimeout
 global 全局命名空间对象，process、console、setTimeout等都有放到global中
 ```
 - Node事件循环机制
+
+
+### 跨域
+ - 什么是跨域
+ ```
+浏览器从一个域名的页面去请求另一个域名的资源时，域名、端口、协议任一不同，都是跨域。
+ ```
