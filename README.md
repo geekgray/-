@@ -48,5 +48,9 @@ global 全局命名空间对象，process、console、setTimeout等都有放到g
 ```
 1.JSONP
 2.CORS 跨域资源共享 ie9+
+XMLHttpRequest发送请求时若不同源，请求头中会自动加Origin属性，
+服务端通过Origin作为依据来判断当前请求是否允许跨域访问，
+服务端通过增加
+
 3.window.postMessage 主流浏览器 ie8+
 ```
