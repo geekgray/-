@@ -45,3 +45,4 @@ global 全局命名空间对象，process、console、setTimeout等都有放到g
 跨域也就是违反了浏览器的同源策略。
  ```
  - 常见的跨域方式有哪些？
+ * JSONP
